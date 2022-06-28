@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Tomato Clock",
+  "name": "Potato Clock",
   "version": "__REPLACED_ON_BUILD__",
-  "author": "Samuel Jun",
+  "author": "Yeoh Ching Huei",
   "description": "A simple browser extension for managing your productivity.",
 
   "applications": {

@@ -36,6 +36,11 @@ export default class Panel {
       this.setBackgroundTimer(TIMER_TYPE.TOMATO);
     });
 
+    document.getElementById("tomato-auto-button").addEventListener("click", () => {
+      this.setTimer(TIMER_TYPE.TOMATO);
+      this.setBackgroundTimer(TIMER_TYPE.TOMATO);
+    });
+
     document
       .getElementById("short-break-button")
       .addEventListener("click", () => {
